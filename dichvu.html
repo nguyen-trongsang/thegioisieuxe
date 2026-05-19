@@ -1,0 +1,177 @@
+<!doctype html>
+<html lang="vi">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Dịch Vụ</title>
+
+    <style>
+      .oswald {
+        font-family: "Oswald", sans-serif;
+        font-optical-sizing: auto;
+        font-weight: 200;
+        font-style: normal;
+      }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        color: white;
+        background-color: black;
+      }
+
+      header {
+        text-align: center;
+        z-index: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 40px;
+      }
+
+      .menu a {
+        float: left;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+        transition: 0.3s ease-in-out;
+      }
+
+      .menu a:hover {
+        transform: translateY(-3px);
+        background-color: white;
+        color: #111;
+      }
+
+      .services {
+        max-width: 1200px;
+        margin: 50px auto;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .services h1 {
+        font-size: 40px;
+        color: crimson;
+      }
+
+      .service-list {
+        display: flex;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+        margin-top: 40px;
+      }
+
+      .service-item {
+        background: #111;
+        border-radius: 15px;
+        padding: 20px;
+        width: 300px;
+        transition: 0.3s ease-in-out;
+      }
+
+      .service-item:hover {
+        transform: translateY(-5px);
+        background: crimson;
+        color: white;
+      }
+
+      .service-item img {
+        width: 100%;
+        border-radius: 10px;
+        margin-bottom: 15px;
+      }
+
+      .service-item h3 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+
+      .service-item p {
+        font-size: 16px;
+        line-height: 1.6;
+      }
+
+      footer {
+        background: black;
+        text-align: center;
+        padding: 15px;
+        margin-top: 50px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h1 class="oswald">Thế Giới Siêu Xe</h1>
+      <div class="menu">
+        <a href="index.html">Trang chủ</a>
+        <a href="gioithieu.html">Giới thiệu</a>
+        <a href="dichvu.html">Dịch vụ</a>
+        <a href="lienhe.html">Liên hệ</a>
+      </div>
+    </header>
+
+    <div class="services">
+      <h1 class="oswald">Dịch Vụ</h1>
+      <h3 class="oswald">
+        Chúng tôi mang đến những dịch vụ cao cấp dành cho tín đồ siêu xe.
+      </h3>
+
+      <div class="service-list">
+        <div class="service-item">
+          <img
+            src="image/dichvu/exotic-cars-dubai1-1579621229.jpg"
+            alt="Showroom"
+          />
+          <h3 class="oswald">Showroom Siêu Xe</h3>
+          <p>
+            Trải nghiệm trực tiếp các mẫu xe mới nhất từ Lamborghini, Ferrari,
+            Porsche, Mercedes-AMG và Bugatti.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <img
+            src="image/dichvu/Kiem-tra-va-Bao-duong-he-thong-lam-mat-o-to.jpeg"
+            alt="Bảo dưỡng"
+          />
+          <h3 class="oswald">Bảo Dưỡng & Sửa Chữa</h3>
+          <p>
+            Dịch vụ bảo dưỡng chuyên nghiệp với đội ngũ kỹ sư giàu kinh nghiệm,
+            đảm bảo xe luôn trong tình trạng hoàn hảo.
+          </p>
+        </div>
+
+        <div class="service-item">
+          <img
+            src="image/dichvu/thue-xe-vip-sieu-xe-gob326.jpg"
+            alt="Thuê xe"
+          />
+          <h3 class="oswald">Thuê Siêu Xe</h3>
+          <p>
+            Cho thuê siêu xe ngắn hạn và dài hạn để bạn tận hưởng cảm giác lái
+            đỉnh cao trong mọi dịp đặc biệt.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2026 Trang Dịch Vụ Siêu Xe</p>
+    </footer>
+  </body>
+</html>
